@@ -1,0 +1,22 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
+  "java.jdt.ls.vmargs": "-javaagent:/Users/juanvazquez/.config/nvim/lombok/lombok.jar",
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "explorer.width": 40,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.git.icon.status.added": "✚",
+  "explorer.git.icon.status.deleted": "✖",
+  "explorer.git.icon.status.renamed": "➜",
+  "explorer.git.icon.status.unmerged": "≠",
+  "explorer.git.icon.status.untracked": "?",
+  "explorer.git.icon.status.modified": "✹",
+  "explorer.git.icon.status.ignored": "~",
+  "diagnostic.errorSign": "✖",
+  "diagnostic.warningSign": ">",
+  "diagnostic.infoSign": "●",
+  "diagnostic.hintSign": "○",
+  "explorer.git.icon.status.mixed": "*"
+}
