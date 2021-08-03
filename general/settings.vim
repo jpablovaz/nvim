@@ -21,16 +21,16 @@ set nobackup nowritebackup
 set noswapfile
 set undodir=~/.config/nvim/undodir
 "set undofile
-set incsearch
 set smartcase
+set ignorecase
+set incsearch
 set spell 
 set spelllang=en_us
 set cmdheight=1
 set noshowmode
 set termguicolors
-set updatetime=40000
+set updatetime=750
 set shortmess+=c
 let mapleader = " "
 let g:python3_host_prog="/Users/juanvazquez/.pyenv/shims/python3"
 let g:deoplete#enable_at_startup = 1
-
