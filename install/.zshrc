@@ -34,6 +34,7 @@ alias tree3="colorls --tree=3"
 #Install
 cp ~/.zshrc ~/.config/nvim/install/
 cp ~/.config/nvim/plugged/gruvbox/colors/gruvbox.vim ~/.config/nvim/install/
+cp ~/.Xmodmap ~/.config/nvim/install/
 #================================================================
 # Keyboard setting
 setxkbmap -option caps:swapescape
