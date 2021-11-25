@@ -1,14 +1,7 @@
-let mapleader=" "
 nnoremap Q <nop>
-inoremap ,, <Esc>
-inoremap jj <Esc>
-
-
 "source $HOME/.config/nvim/plugins/vim-which-key.vim
-nnoremap <C-s> :w<CR>
-nnoremap <C-Q> :xa<CR>
-inoremap <c-u> <Esc>viwUi
-nnoremap <c-u> viwu<Esc>
+nnoremap zz :update<CR>
+inoremap zz <Esc>:update<CR>
 vnoremap < <gv        
 vnoremap > >gv        
 
@@ -26,8 +19,8 @@ nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 
 nnoremap <UP> ddkP 
-nnoremap <DOWN> ddp
-vnoremap <UP> xkP`[V`]
+noremap <UP> xkP`[V`]
+vnoremap <DOWN> ddp
 vnoremap <DOWN> xp`[V`]
 
 nnoremap <leader>ghw :h <C-R>=expand("<cword>")<CR><CR>

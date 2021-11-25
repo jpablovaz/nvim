@@ -4,10 +4,10 @@ set wildmenu
 set wildmode=longest,list,full
 set nu
 set clipboard=unnamedplus
-"set relativenumber
-set nohlsearch
+set relativenumber
+"set nohlsearch
 set noerrorbells
-set autoindent 
+"set autoindent 
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab 
@@ -16,7 +16,6 @@ set cursorline
 set hidden
 set scrolloff=10
 set signcolumn=yes
-"set colorcolumn=80
 set nobackup nowritebackup
 set noswapfile
 set undodir=~/.config/nvim/undodir
@@ -32,5 +31,9 @@ set termguicolors
 set updatetime=750
 set shortmess+=c
 let mapleader = " "
-let g:python3_host_prog="/Users/juanvazquez/.pyenv/shims/python3"
+"let g:python_host_prog="~/.config/nvim/python/2/venv"
+"let g:python3_host_prog="~/.config/nvim/python/3/venv"
 let g:deoplete#enable_at_startup = 1
+autocmd InsertEnter * highlight CursorLine guibg=#151515
+autocmd InsertLeave * highlight CursorLine guibg=#0b0b0b
+

@@ -1,5 +1,5 @@
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-treesitter/nvim-treesitter'
 
 let g:coc_global_extensions = [
       \ 'coc-markdownlint'

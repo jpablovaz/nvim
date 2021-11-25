@@ -1,6 +1,5 @@
 {
   "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
-  "java.jdt.ls.vmargs": "-javaagent:/Users/juanvazquez/.config/nvim/lombok/lombok.jar",
   "codeLens.enable": true,
   "java.referencesCodeLens.enabled": true,
   "explorer.width": 40,
