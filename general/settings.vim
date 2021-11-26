@@ -20,6 +20,12 @@ set nobackup nowritebackup
 set noswapfile
 set undodir=~/.config/nvim/undodir
 "set undofile
+set breakindent
+set wrap linebreak nolist
+set whichwrap+=<,>,h,l
+set showbreak=...¦
+set list
+set listchars=tab:>-
 set smartcase
 set ignorecase
 set incsearch

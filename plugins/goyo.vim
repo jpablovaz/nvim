@@ -20,14 +20,14 @@ function! s:goyo_enter()
   let fontsize=22
   set noshowcmd
   set scrolloff=999
-  Limelight
+"  Limelight
 endfunction
 
 function! s:goyo_leave()
   set showmode
   set showcmd
   set scrolloff=5
-  Limelight!
+"  Limelight!
   hi! Normal ctermbg=NONE guibg=NONE
 endfunction
 

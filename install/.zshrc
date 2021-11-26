@@ -1,3 +1,4 @@
+#================================================================
 # Path to your oh-my-zsh installation.
 export ZSH="/home/juan/.oh-my-zsh"
 ZSH_THEME="kardan"
@@ -39,15 +40,4 @@ cp ~/.Xmodmap ~/.config/nvim/install/
 # Keyboard setting
 setxkbmap -option caps:swapescape
 xmodmap ~/.Xmodmap
-#In the .Xmodmap file put the following::::
-#clear control
-#clear mod4
-#keycode 105 =
-#keycode 206 =
-#keycode 133 = Control_L NoSymbol Control_L
-#keycode 134 = Control_R NoSymbol Control_R
-#keycode 37 = Super_L NoSymbol Super_L
-#add control = Control_L
-#add control = Control_R
-#add mod4 = Super_L
 #================================================================

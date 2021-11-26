@@ -5,6 +5,9 @@ inoremap zz <Esc>:update<CR>
 vnoremap < <gv        
 vnoremap > >gv        
 
+nnoremap j gj
+nnoremap k gk
+
 nnoremap <silent> <M-n> :cnext<CR>
 nnoremap <silent> <M-p> :cprev<CR>
 nnoremap <silent> <M-h> :colder<CR>
