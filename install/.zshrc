@@ -12,7 +12,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-export JAVA_TOOL_OPTIONS="-javaagent:/home/juan/.config/nvim/lombock/lombok.jar"
+export JAVA_TOOL_OPTIONS="-javaagent:/home/juan/.config/nvim/java/lombok.jar"
 #================================================================
 alias v="nvim"
 alias vz="cd ~/ && nvim .zshrc"
@@ -25,12 +25,15 @@ alias bbb="cd ~/Dev/Distribuidora/back-end && mvn spring-boot:run"
 alias dd="cd ~/Dev/Distribuidora/docker-dev && docker-compose up"
 alias oo="cd ~/Dev/Distribuidora/old-swing && nvim"
 #Colorls
-alias lx='colorls -1'
+alias l='colorls -1'
 alias ls="colorls -a"
 alias ll="colorls -l"
 alias lc='colorls -lA --sd'
 alias tree="colorls --tree=2"
 alias tree3="colorls --tree=3"
+
+alias mtest="cp ~/.config/nvim/java/mvn ./ -R && cd $PWD/mvn && v"
+alias jtest="cp ~/.config/nvim/java/single ./ -R && cd $PWD/single && v"
 #================================================================
 #Install
 cp ~/.zshrc ~/.config/nvim/install/
