@@ -1,3 +1,7 @@
+clear
+unset JAVA_TOOL_OPTIONS
+mvn exec:java -q -Dexec.mainClass="com.wopiro.test.App" 
+
 modified=0
 last_modified=0
 while true

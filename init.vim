@@ -2,7 +2,7 @@
 
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/key-binding.vim
-
+source $HOME/.config/nvim/python/python.vim
 "
 source $HOME/.config/nvim/plugins/_others.vim
 source $HOME/.config/nvim/plugins/coc.vim

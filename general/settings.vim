@@ -37,8 +37,6 @@ set termguicolors
 set updatetime=750
 set shortmess+=c
 let mapleader = " "
-"let g:python_host_prog="~/.config/nvim/python/2/venv"
-"let g:python3_host_prog="~/.config/nvim/python/3/venv"
 let g:deoplete#enable_at_startup = 1
 autocmd InsertEnter * highlight CursorLine guibg=#151515
 autocmd InsertLeave * highlight CursorLine guibg=#0b0b0b

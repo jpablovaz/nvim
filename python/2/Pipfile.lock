@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "19287b358b21f1592fc286c5a75209b1da20f2c2e76ce113116b4a66d86c685d"
+            "sha256": "d2a9c34b244d422484a453e6842a644f5604c47dcb302e30e8ba058387906362"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -116,13 +116,6 @@
                 "sha256:f74da1e5fcf20ade12c6bf1baa17a2dc3604958922de8dc83cbe3eff22e8b611"
             ],
             "version": "==1.0.3"
-        },
-        "neovim": {
-            "hashes": [
-                "sha256:a6a0e7a5b4433bf4e6ddcbc5c5ff44170be7d84259d002b8e8d8fb4ee78af60f"
-            ],
-            "index": "pypi",
-            "version": "==0.3.1"
         },
         "pynvim": {
             "hashes": [
