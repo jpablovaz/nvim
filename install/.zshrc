@@ -21,26 +21,28 @@ export JAVA_TOOL_OPTIONS="-javaagent:/home/juan/.config/nvim/java/lombok.jar"
 alias v="nvim"
 alias vz="cd ~/ && nvim .zshrc"
 alias vx="cd ~/.config/nvim && nvim init.vim"
-#My projects
+# My projects
 alias ff="cd ~/Dev/Distribuidora/front-end && nvim"
 alias fff="cd ~/Dev/Distribuidora/front-end && npm start"
 alias bb="cd ~/Dev/Distribuidora/back-end && nvim"
 alias bbb="cd ~/Dev/Distribuidora/back-end && mvn spring-boot:run"
 alias dd="cd ~/Dev/Distribuidora/docker-dev && docker-compose up"
 alias oo="cd ~/Dev/Distribuidora/old-swing && nvim"
-#Java Test
+# Java Test
 alias prepare-directory-mvn="mkdir -p ~/Dev && mkdir -p ~/Dev/Playground && rm -f ~/Dev/Playground/mvn -R"
 alias prepare-directory-main="mkdir -p ~/Dev && mkdir -p ~/Dev/Playground && rm -f ~/Dev/Playground/main -R"
 alias jmvn="prepare-directory-mvn && cp ~/.config/nvim/java/mvn ~/Dev/Playground -R && cd ~/Dev/Playground/mvn && v"
 alias jmain="prepare-directory-main && cp ~/.config/nvim/java/main ~/Dev/Playground -R && cd ~/Dev/Playground/main && v"
-#Colorls
+# Colorls
 alias l='colorls -1'
 alias ls="colorls -a"
 alias ll="colorls -l"
 alias lc='colorls -lA --sd'
 alias tree="colorls --tree=2"
 alias tree3="colorls --tree=3"
-#Lynx Browser
+# Git
+alias gg="git add . && git commit -m 'updated' && git push"
+# Lynx Browser
 alias ly='lynx https://duckduckgo.com/'
 #=======================================================================================
 #=======================================================================================

@@ -1,3 +1,4 @@
+
 %call plug#begin('~/.config/nvim/plugged')
 
 source $HOME/.config/nvim/general/settings.vim
