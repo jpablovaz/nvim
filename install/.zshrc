@@ -2,7 +2,8 @@
 #=======================================================================================
 # Path to your oh-my-zsh installation.
 export ZSH="/home/juan/.oh-my-zsh"
-ZSH_THEME="kardan"
+#ZSH_THEME="kardan"
+ZSH_THEME="agnoster"
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
@@ -39,6 +40,8 @@ alias ll="colorls -l"
 alias lc='colorls -lA --sd'
 alias tree="colorls --tree=2"
 alias tree3="colorls --tree=3"
+#Lynx Browser
+alias ly='lynx https://duckduckgo.com/'
 #=======================================================================================
 #=======================================================================================
 #Install
@@ -46,6 +49,7 @@ cp ~/.zshrc ~/.config/nvim/install/
 cp ~/.config/nvim/plugged/gruvbox/colors/gruvbox.vim ~/.config/nvim/install/
 cp ~/.Xmodmap ~/.config/nvim/install/
 cp ~/.config/coc/extensions/package.json ~/.config/nvim/install/
+cp /var/lib/gems/2.7.0/gems/colorls-1.4.4/lib/yaml/dark_colors.yaml ~/.config/nvim/install/
 #=======================================================================================
 #=======================================================================================
 # Keyboard setting

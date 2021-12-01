@@ -1,0 +1,46 @@
+#/var/lib/gems/2.7.0/gems/colorls-1.4.4/lib/yaml/dark_colors.yaml
+# Main Colors
+unrecognized_file: gold
+recognized_file:   '#fabd2f'
+executable_file:   '#b8bb26'
+dir:               '#83a598'
+
+# Link
+dead_link: '#fb4934'
+link:      '#458588'
+
+# special files
+socket:    '#98971a'
+blockdev:  '#98971a'
+chardev:   '#98971a'
+
+# Access Modes
+write:     darkkhaki
+read:      limegreen
+exec:      '#fb4934
+no_access: indianred
+
+# Age
+day_old:     '#79740e'
+hour_old:    '#427b58'
+no_modifier: '#076678'
+
+# File Size
+file_large:  orange
+file_medium: gold
+file_small:  peachpuff
+
+# Random
+report: white
+user:   moccasin
+tree:   '#458588'
+empty:  '#fabd2f'
+error:  '#fb4934'
+normal: darkkhaki
+
+# Git
+addition:     '#b8bb26'
+modification: darkkhaki
+deletion:     darkred
+untracked:    darkorange
+unchanged:    forestgreen
