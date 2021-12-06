@@ -17,6 +17,7 @@ source $HOME/.config/nvim/plugins/gruvbox.vim
 source $HOME/.config/nvim/plugins/close-buffers.vim
 source $HOME/.config/nvim/plugins/undotree.vim
 source $HOME/.config/nvim/plugins/fugitive.vim
+source $HOME/.config/nvim/plugins/fzf.vim
 "
 call plug#end()
 colorscheme gruvbox
