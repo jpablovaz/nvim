@@ -19,7 +19,7 @@ set signcolumn=yes
 set nobackup nowritebackup
 set noswapfile
 set undodir=~/.config/nvim/undodir
-"set undofile
+set undofile
 set breakindent
 set wrap linebreak nolist
 set whichwrap+=<,>,h,l
