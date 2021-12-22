@@ -8,8 +8,8 @@ set relativenumber
 "set nohlsearch
 set noerrorbells
 "set autoindent 
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=3 softtabstop=3
+set shiftwidth=3
 set expandtab 
 set smartindent
 set cursorline
@@ -23,9 +23,9 @@ set undofile
 set breakindent
 set wrap linebreak nolist
 set whichwrap+=<,>,h,l
-set showbreak=...¦
+set showbreak=>>>
 set list
-set listchars=tab:>-
+set listchars=tab:\|\ ,trail:~,extends:>,precedes:<
 set smartcase
 set ignorecase
 set incsearch
