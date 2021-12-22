@@ -25,7 +25,8 @@ set wrap linebreak nolist
 set whichwrap+=<,>,h,l
 set showbreak=>>>
 set list
-set listchars=tab:\|\ ,trail:~,extends:>,precedes:<
+"'|', '¦', '┆', '┊'
+set listchars=tab:\┊\ ,trail:~,extends:>,precedes:<
 set smartcase
 set ignorecase
 set incsearch
