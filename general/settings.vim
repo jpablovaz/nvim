@@ -42,4 +42,4 @@ set shortmess+=c
 let mapleader = " "
 let g:deoplete#enable_at_startup = 1
 autocmd InsertEnter * highlight CursorLine guibg=#161616
-autocmd InsertLeave * highlight CursorLine guibg=#141414
+autocmd InsertLeave * highlight CursorLine guibg=#101010
