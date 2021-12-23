@@ -86,17 +86,17 @@ let s:is_dark=(&background == 'dark')
 let s:gb = {}
 
 " fill it with absolute colors
-let s:gb.dark0_hard  = ['#0a0a0a', 234]     " 29-32-33
-let s:gb.dark0       = ['#191919', 235]     " 40-40-40
-let s:gb.dark0_soft  = ['#1a1a1a', 236]     " 50-48-47
-let s:gb.dark1       = ['#1c1c1c', 237]     " 60-56-54
-let s:gb.dark2       = ['#303030', 239]     " 80-73-69
-let s:gb.dark3       = ['#404040', 241]     " 102-92-84
-let s:gb.dark4       = ['#4f4f40', 243]     " 124-111-100
-let s:gb.dark4_256   = ['#2f2f2f', 243]     " 124-111-100
+let s:gb.dark0_hard  = ['#0a0a0a', 234]     " ?
+let s:gb.dark0       = ['#191919', 235]     " Background
+let s:gb.dark0_soft  = ['#1a0a1a', 236]     " ?
+let s:gb.dark1       = ['#191919', 237]     " Debug line
+let s:gb.dark2       = ['#282828', 239]     " Identation line
+let s:gb.dark3       = ['#404040', 241]     " Parenthesis and right explorer border
+let s:gb.dark4       = ['#4f4f4f', 243]     " Numbers
+let s:gb.dark4_256   = ['#404040', 243]     " ?
 
-let s:gb.gray_245    = ['#454545', 245]     " 146-131-116
-let s:gb.gray_244    = ['#624a44', 244]     " 146-131-116
+let s:gb.gray_245    = ['#454545', 245]     " Explorer lines and gitignore folders
+let s:gb.gray_244    = ['#454545', 244]     " ?
 
 let s:gb.light0_hard = ['#f9f5d7', 230]     " 249-245-215
 let s:gb.light0      = ['#fbf1c7', 229]     " 253-244-193
