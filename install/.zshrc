@@ -49,6 +49,7 @@ alias ly='lynx https://duckduckgo.com/'
 #Install
 cp ~/.zshrc ~/.config/nvim/install/
 cp ~/.config/nvim/plugged/gruvbox/colors/gruvbox.vim ~/.config/nvim/install/
+cp ~/.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/serene.vim ~/.config/nvim/install/
 cp ~/.Xmodmap ~/.config/nvim/install/
 cp ~/.config/coc/extensions/package.json ~/.config/nvim/install/
 cp /var/lib/gems/2.7.0/gems/colorls-1.4.4/lib/yaml/dark_colors.yaml ~/.config/nvim/install/
