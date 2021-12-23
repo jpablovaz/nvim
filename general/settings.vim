@@ -8,9 +8,10 @@ set relativenumber
 "set nohlsearch
 set noerrorbells
 "set autoindent 
-set tabstop=3 softtabstop=3
-set shiftwidth=3
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set expandtab 
+set noexpandtab
 set smartindent
 set cursorline
 set hidden
@@ -25,8 +26,9 @@ set wrap linebreak nolist
 set whichwrap+=<,>,h,l
 set showbreak=>>>
 set list
-"'|', '¦', '┆', '┊'
-set listchars=tab:\┆\ ,trail:~,extends:>,precedes:<
+"'|', '¦', '┆', 'y'
+"set listchars=tab:\┆\ ,trail:~,extends:>,precedes:<
+set listchars=tab:▏\ ,trail:~,extends:>,precedes:<
 set smartcase
 set ignorecase
 set incsearch
@@ -40,5 +42,4 @@ set shortmess+=c
 let mapleader = " "
 let g:deoplete#enable_at_startup = 1
 autocmd InsertEnter * highlight CursorLine guibg=#161616
-autocmd InsertLeave * highlight CursorLine guibg=#151515
-
+autocmd InsertLeave * highlight CursorLine guibg=#141414
