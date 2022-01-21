@@ -5,7 +5,7 @@ let s:termbg = 232
 let s:termsep = 236
 let s:guisep = '#202020'
 
-let s:N1 = [ '#b57614' , s:guibg , 45  , s:termbg ]
+let s:N1 = [ '#d79921' , s:guibg , 45  , s:termbg ]
 let s:N2 = [ '#af3a03' , s:guibg , 202 , s:termbg ]
 let s:N3 = [ '#424242' , s:guibg , 7   , s:termbg ]
 
@@ -14,13 +14,13 @@ let g:airline#themes#serene#palette.normal_modified = {
       \ 'airline_c': [ '#af3a03' , s:guibg, 160     , s:termbg    , ''     ] ,
       \ }
 
-let s:I1 = [ '#79740e' , s:guibg , 82  , s:termbg ]
+let s:I1 = [ '#98971a' , s:guibg , 82  , s:termbg ]
 let s:I2 = [ '#af3a03' , s:guibg , 202 , s:termbg ]
 let s:I3 = [ '#202020' , s:guibg , 7   , s:termbg ]
 let g:airline#themes#serene#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#serene#palette.insert_modified = copy(g:airline#themes#serene#palette.normal_modified)
 let g:airline#themes#serene#palette.insert_paste = {
-      \ 'airline_a': [ s:I1[0]   , '#79740e' , s:I1[2] , 172     , ''     ] ,
+      \ 'airline_a': [ s:I1[0]   , '#98971a' , s:I1[2] , 172     , ''     ] ,
       \ }
 
 let g:airline#themes#serene#palette.replace = {

@@ -4,6 +4,7 @@
   "java.referencesCodeLens.enabled": true,
   "explorer.width": 36,
   "explorer.buffer.root.template": "░",
+
   "explorer.file.root.template": "[root]",
   "explorer.file.showHiddenFiles": true,
   "explorer.icon.enableNerdfont": true,
