@@ -1,8 +1,16 @@
 {
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/home/juan/.sdkman/candidates/java/current",
+      "default": true
+    }
+  ],
   "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
   "codeLens.enable": true,
   "java.referencesCodeLens.enabled": true,
-  "explorer.width": 36,
+  "explorer.width": 47,
+  "explorer.position": "right",
   "explorer.buffer.root.template": "░",
 
   "explorer.file.root.template": "[root]",

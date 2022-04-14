@@ -29,6 +29,7 @@ set list
 "'|', '¦', '┆', 'y'
 "set listchars=tab:\┆\ ,trail:~,extends:>,precedes:<
 set listchars=tab:▏\ ,trail:~,extends:>,precedes:<
+set tabpagemax=3
 set smartcase
 set ignorecase
 set incsearch
