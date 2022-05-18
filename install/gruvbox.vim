@@ -87,9 +87,9 @@ let s:gb = {}
 
 " fill it with absolute colors
 let s:gb.dark0_hard  = ['#0a0a0a', 234]     " ?
-let s:gb.dark0       = ['#191919', 235]     " Background
-let s:gb.dark0_soft  = ['#1a0a1a', 236]     " ?
-let s:gb.dark1       = ['#191919', 237]     " Debug line
+let s:gb.dark0       = ['#161616', 235]     " Background
+let s:gb.dark0_soft  = ['#1a1a1a', 236]     " ?
+let s:gb.dark1       = ['#161616', 237]     " Debug line
 let s:gb.dark2       = ['#262626', 239]     " Identation line
 let s:gb.dark3       = ['#404040', 241]     " Parenthesis and right explorer border
 let s:gb.dark4       = ['#4f4f4f', 243]     " Numbers
